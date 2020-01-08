@@ -1,0 +1,2 @@
+
+javac -sourcepath src;002 -d bin a/*.java b/*.java c/*.java
