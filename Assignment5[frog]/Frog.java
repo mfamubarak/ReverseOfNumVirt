@@ -4,6 +4,7 @@ public class Frog
 {
 static int tmp;
 static int c;
+//method for Time calculation from Distance
 public static void frogDistance(int d)
 {
 
@@ -38,11 +39,10 @@ public static void frogDistance(int d)
 		
 
 }
-
+//method for Distance calculation from Time
 public static void frogTime(int t) 
 {
-try
-{
+
 	if(c==3 && t>0)
 	{
 		t=t-1;
@@ -70,10 +70,7 @@ try
 		frogTime(t);
 	}
 }
-catch(Exception ee)
-{
-System.out.println(ee.toString());	
-}	
+	
 	
 }
 
@@ -91,7 +88,7 @@ if(!useroption.trim().toUpperCase().equals("E"))
 	tmp=0;
 	c=3;
 	
-
+//option for Distance input
 	if(useroption.trim().toUpperCase().equals("D"))
 	{
 		System.out.println("Enter the Distance\n");
@@ -100,7 +97,7 @@ if(!useroption.trim().toUpperCase().equals("E"))
 		tmp=tmp+(((uservalue/9)*8));
 		System.out.println("John has taken "+tmp+" seconds");
 
-	}
+	}//option for Time input
 	else if(useroption.trim().toUpperCase().equals("T"))
 	{
 		System.out.println("Enter the Time");
