@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            String pathR="C:\\Users\\Develop\\Desktop\\java\\ReverseOfNumVirtusa\\Assignment4\\read.txt";
-            String pathW="C:\\Users\\Develop\\Desktop\\java\\ReverseOfNumVirtusa\\Assignment4\\write.txt";
+            String pathR="C:\\Users\\Develop\\Desktop\\java\\ReverseOfNumVirtusa\\Assignment4\\MyJava\\out\\production\\MyJava\\com\\myapp\\txt\\read.txt";
+            String pathW="C:\\Users\\Develop\\Desktop\\java\\ReverseOfNumVirtusa\\Assignment4\\MyJava\\out\\production\\MyJava\\com\\myapp\\txt\\write.txt";
             FileReader file=new FileReader(pathR);
             WordUpperCase b=new WordUpperCase(file);
             FileWriter fileW=new FileWriter(pathW);
