@@ -7,7 +7,7 @@ public class MultiplicationTable{
 		int in=10;
 		//get the size of the table
 		System.out.println("Enter Max Number ");
-		in=Integer.parseInt(s1.nextLine());
+		in=s1.nextInt();
 		//print the outer border
 		System.out.print("\n");
 		for(int j=1;j<=in;++j)

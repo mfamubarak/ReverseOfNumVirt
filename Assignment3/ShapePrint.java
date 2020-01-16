@@ -8,7 +8,7 @@ public class ShapePrint{
 		int l=1,m=0,in=10,t=0;
 		//Get the Number of lines
 		System.out.println("Enter Shape Size ");
-		in=Integer.parseInt(s1.nextLine());
+		in=s1.nextInt();
 		System.out.println("------------------------------------------------------------------------------------------------ ");
 		
 		//loop for Rows

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f40ee59-c9b9-4113-b6b1-3677470ef746" name="Default Changelist" comment="" />
+    <list default="true" id="3f40ee59-c9b9-4113-b6b1-3677470ef746" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment3/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment3/MultiplicationTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment3/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment3/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment3/ShapePrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment3/ShapePrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment3/ShapePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment3/ShapePrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment5[frog]/Frog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment5[frog]/Frog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment5[frog]/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment5[frog]/Frog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +27,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WRguRB7izkQxXKGjXNjCGrlOIf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,10 +81,22 @@
       <option name="presentableId" value="Default" />
       <updated>1579118043529</updated>
       <workItem from="1579118045807" duration="703000" />
+      <workItem from="1579200886536" duration="2166000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

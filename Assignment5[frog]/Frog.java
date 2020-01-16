@@ -72,7 +72,6 @@ public static void frogTime(int t)
 }
 	
 	
-}
 
 public static void main(String[] args)
 {
@@ -92,7 +91,7 @@ if(!useroption.trim().toUpperCase().equals("E"))
 	if(useroption.trim().toUpperCase().equals("D"))
 	{
 		System.out.println("Enter the Distance\n");
-		uservalue=Integer.parseInt(s1.nextLine());
+		uservalue=s1.nextInt();
 		frogDistance((uservalue%9));
 		tmp=tmp+(((uservalue/9)*8));
 		System.out.println("John has taken "+tmp+" seconds");
@@ -101,7 +100,7 @@ if(!useroption.trim().toUpperCase().equals("E"))
 	else if(useroption.trim().toUpperCase().equals("T"))
 	{
 		System.out.println("Enter the Time");
-		uservalue=Integer.parseInt(s1.nextLine());
+		uservalue=s1.nextInt();
 		frogTime((uservalue%8));
 		tmp=tmp+(((uservalue/8)*9));
 		System.out.println("John has gone "+tmp+" Meters");
