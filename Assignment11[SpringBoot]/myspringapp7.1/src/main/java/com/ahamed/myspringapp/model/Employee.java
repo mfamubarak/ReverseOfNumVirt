@@ -1,36 +1,17 @@
 package com.ahamed.myspringapp.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
-import javax.persistence.*;
-import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Employee {
 
     @Id
     @GeneratedValue
-
     private Integer id;
     private String name;
 
-
-
-    @OneToOne(cascade = CascadeType.ALL)
-    Address address;
-
-    @OneToMany(mappedBy = "employee",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    List<Telephone> telephone;
-
-    @ManyToMany(cascade = {
-            CascadeType.PERSIST,
-            CascadeType.MERGE
-    })
-    @JoinTable(name ="emp_Projects",
-            joinColumns = @JoinColumn(name = "eid"),
-            inverseJoinColumns = @JoinColumn(name = "pid")
-    )
-    List<Project> project;
 
     public Employee() {
     }
@@ -51,27 +32,5 @@ public class Employee {
         this.name = name;
     }
 
-    public Address getAddress() {
-        return address;
-    }
 
-    public void setAddress(Address address) {
-        this.address = address;
-    }
-
-    public List<Telephone> getTelephone() {
-        return telephone;
-    }
-
-    public void setTelephone(List<Telephone> telephone) {
-        this.telephone = telephone;
-    }
-
-    public List<Project> getProject() {
-        return project;
-    }
-
-    public void setProject(List<Project> project) {
-        this.project = project;
-    }
 }

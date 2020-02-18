@@ -3,16 +3,13 @@ package com.ahamed.myspringapp.model;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity
+//@Entity
 public class Employee {
 
-
+   // @Id
+   // @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String name;
-
-
-
-
 
 
     public Employee() {

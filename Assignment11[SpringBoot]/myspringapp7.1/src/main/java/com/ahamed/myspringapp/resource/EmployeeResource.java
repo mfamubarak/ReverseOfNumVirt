@@ -1,10 +1,7 @@
 package com.ahamed.myspringapp.resource;
 
-import com.ahamed.myspringapp.model.Address;
 import com.ahamed.myspringapp.model.Employee;
-import com.ahamed.myspringapp.repository.AddressRepository;
 import com.ahamed.myspringapp.repository.EmployeeRepository;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.ui.Model;
@@ -20,11 +17,16 @@ public class EmployeeResource {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @Autowired
-    AddressRepository addressRepository;
+    @RequestMapping(value = "/employs", produces = MediaType.APPLICATION_XML_VALUE, method = RequestMethod.GET)
+    public List<Employee> getAllEmployeesXML(){
+        return employeeRepository.findAll();
+    }
 
-
-
+    @RequestMapping(value = "/employeess", produces = MediaType.APPLICATION_JSON_VALUE,  method = RequestMethod.GET)
+    public List<Employee> getAllEmployeesJSON()
+    {
+    	 return employeeRepository.findAll();
+    }
 
 
     @RequestMapping(value = "/employees", produces = MediaType.APPLICATION_XML_VALUE, method = RequestMethod.GET)
